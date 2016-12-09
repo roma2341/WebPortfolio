@@ -8,7 +8,7 @@
 <body>
 	<div class="consultant_wrapper">
 		<div class="left_panel">
-			<div class="items_list_block">
+			<div class="items_list_block top_block">
 
 				<div class="block_name">Тренер</div>
 				<div class="block_content">
@@ -22,11 +22,25 @@
 							<div class="user_presence">Онлайн</div>
 						</div>
 					</div>
-				</div>
 
+						<div class="block_item"> 
+						<div class="avatar">
+							<img class="user_image"  alt="">
+							<img class="user_presence_icon" alt="">
+						</div>
+						<div class="text_info">
+							<div class="user_name">Людмила Журавская</div>
+							<div class="user_presence">Онлайн</div>
+						</div>
+					</div>
 
+				</div>				
 			</div>
-			<div class="items_list_block">
+			<div class="chevron_wrapper" onclick="unfoldLeftPanelItemsListBlockFirst()">
+			<div class="chevron"></div>
+			</div>
+
+			<div class="items_list_block middle_block">
 				<div class="block_name">Тенанти</div>
 				<div class="block_content">
 					<div class="block_item"> 
@@ -50,6 +64,10 @@
 						</div>
 					</div>
 				</div>
+				
+			</div>
+			<div class="chevron_wrapper" onclick="unfoldLeftPanelItemsListBlockSecond()">
+			<div class="chevron"></div>
 			</div>
 			<div class="contacts_menu_strip">
 				<img class="search_icon" src="Images\search17x17.png" alt="">
@@ -58,7 +76,7 @@
 				<img class="group_icon" src="Images\group23x16.png" alt="">
 			</div>
 			
-			<div class="items_list_block last_list_block">
+			<div class="items_list_block bottom_block">
 				<div class="section">
 
 					<div class="section_name">А</div>
